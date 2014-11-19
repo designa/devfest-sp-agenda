@@ -1,0 +1,40 @@
+@media(max-width: 1024px) {
+  html, body {
+    font-size: 28px;
+  }
+}
+
+@media(max-width: 768px) {
+  html, body {
+    font-size: 20px;
+  }
+
+  body .speaker-schedule time, body .speaker-schedule .speaker {
+    display: block;
+    width: 100%;
+  }
+
+  body .speaker-wrapper {
+    width: 50%;
+    float: left;
+    margin: 0 !important;
+  }
+
+  body #slide2 .speakers .speaker {
+    width: 49%;
+  }
+
+  body #slide2 .speakers .speaker:nth-child(n+2) {
+    margin: 0;
+  }
+
+  body #slide2 .speakers .speaker:nth-child(n+3) {
+    margin-top: 15px;
+  }
+}
+
+@media(max-width: 480px) {
+  html, body {
+    font-size: 16px;
+  }
+}

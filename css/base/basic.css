@@ -1,0 +1,170 @@
+.heading {
+  font-family: "Roboto Medium";
+  font-size: 1.75em;
+  color: #fff;
+}
+
+.subtitle {
+  color: #fff;
+  font-size: 1em;
+}
+
+.content {
+  width: 100%;
+  padding: 50px;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bg-blue {
+  background-color: #2196F3;
+}
+
+.bg-pink {
+  background-color: #E91E63;
+}
+
+.bg-green {
+  background-color: #4CAF50;
+}
+
+.sponsors {
+  background-color: #fff;
+  font-size: 0;
+}
+
+.border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 1px 10px rgba(34, 25, 25, 0.4);
+  -webkit-box-shadow: 0 1px 10px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px 10px rgba(34, 25, 25, 0.4);
+}
+
+.stop {
+  background-color: #fff;
+}
+
+.stop .heading {
+  color: #666;
+}
+
+.stop .subtitle {
+  font-size: 1.5em;
+  color: #2196F3;
+}
+
+i {
+  color: #fff;
+  font-size: .5em;
+  text-transform: lowercase;
+}
+
+.speaker-wrapper {
+  width: 100%;
+}
+
+.speaker-wrapper:nth-child(n+2) {
+  margin-top: 25px;
+}
+
+.speaker-photo {
+  border-radius: 50%;
+  width: 6em;
+  height: 6em;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 1px #FFFFFF inset, 0 1px 10px rgba(34, 25, 25, 0.4);
+  -webkit-box-shadow: 0 1px #FFFFFF inset, 0 1px 10px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px #FFFFFF inset, 0 1px 10px rgba(34, 25, 25, 0.4);
+  position: relative;
+}
+
+.speaker-photo img {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+.speaker-name {
+  font-size: 1em;
+  color: #333;
+  margin: 15px 0;
+}
+
+.speaker-role, .speaker-role-place {
+  font-size: .5em;
+  display: block;
+}
+
+.speaker-schedule time, .speaker-schedule .speaker {
+  float: left;
+  display: inline-block;
+}
+
+.speaker-schedule time {
+  width: 60%;
+  padding: 50px;
+  text-align: left;
+}
+
+.speaker-schedule time .category {
+  margin-top: 50px;
+  text-transform: uppercase;
+  display: block;
+  color: #fff;
+  font-family: "Roboto Thin";
+  font-size: 1.5em;
+}
+
+.speaker-schedule .speaker {
+  background-color: #fff;
+  padding: 25px;
+  width: 40%;
+  box-shadow: 0 1px #FFFFFF inset, 0 1px 10px rgba(34, 25, 25, 0.4);
+  -webkit-box-shadow: 0 1px #FFFFFF inset, 0 1px 10px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px #FFFFFF inset, 0 1px 10px rgba(34, 25, 25, 0.4);
+}
+
+.more-speakers .speaker-photo {
+  width: 4em;
+  height: 4em;
+}
+
+.more-speakers .speaker-name {
+  font-size: .75em;
+}
+
+.more-speakers .speaker-role, .more-speakers .speaker-role-place {
+  font-size: .5em;
+}
+
+.sponsor {
+  padding: 50px;
+  width: 50%;
+  display: inline-block;
+}
+
+.sponsor .category {
+  font-size: .5rem;
+  color: #999;
+  text-transform: lowercase;
+  margin-bottom: 25px;
+}
+
+.sponsor.more-sponsors img {
+  width: 50%;
+}
+
+.sponsor img {
+  width: 75%;
+  display: inline-block;
+}

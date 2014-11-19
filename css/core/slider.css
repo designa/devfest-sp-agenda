@@ -1,0 +1,92 @@
+.slider {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 100%;
+  text-align: center;
+}
+
+.previous, .next {
+  position: absolute;
+  top: 50%;
+  margin-top: -9px;
+  color: #333;
+  text-decoration: none;
+  z-index: 9999;
+}
+
+.previous {
+  left: 50px;
+}
+
+.next {
+  right: 50px;
+}
+
+.current-slide {
+  left: 0;
+}
+
+@-webkit-keyframes proximo_slide {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: 0%;
+  }
+}
+
+@-webkit-keyframes slide_anterior {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 0%;
+  }
+}
+
+@-webkit-keyframes atual_para_esquerda {
+  from {
+    left: 0%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@-webkit-keyframes atual_para_direita {
+  from {
+    left: 0%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+.go-to-left {
+  -webkit-animation: atual_para_esquerda 0.5s ease-in-out;
+}
+
+.go-to-right {
+  -webkit-animation: atual_para_direita 0.5s ease-in-out;
+}
+
+.current-slide-left {
+  -webkit-animation: proximo_slide 0.5s ease-in-out;
+}
+
+.current-slide-right {
+  -webkit-animation: slide_anterior 0.5s ease-in-out;
+}

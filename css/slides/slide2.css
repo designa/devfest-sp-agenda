@@ -1,0 +1,25 @@
+#slide2 .speakers {
+  background-color: #fff;
+  width: calc(100% - 50px);
+  margin: 50px auto 0 auto;
+  padding: 25px;
+  box-shadow: 0 1px #FFFFFF inset, 0 1px 10px rgba(34, 25, 25, 0.4);
+  -webkit-box-shadow: 0 1px #FFFFFF inset, 0 1px 10px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px #FFFFFF inset, 0 1px 10px rgba(34, 25, 25, 0.4);
+}
+
+#slide2 .speakers:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#slide2 .speakers .speaker {
+  float: left;
+  display: inline-block;
+  width: 24%;
+}
+
+#slide2 .speakers .speaker:nth-child(n+2) {
+  margin-left: 1%;
+}

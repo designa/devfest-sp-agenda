@@ -1,0 +1,13 @@
+@import url("base/reset.css");
+@import url("base/media.css");
+@import url("base/basic.css");
+
+@import url("core/slider.css");
+
+@import url("slides/slide1.css");
+@import url("slides/slide2.css");
+@import url("slides/slide4.css");
+@import url("slides/slide5.css");
+@import url("slides/slide6.css");
+@import url("slides/slide31.css");
+@import url("slides/slide37.css");
